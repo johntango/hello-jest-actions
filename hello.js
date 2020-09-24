@@ -1,3 +1,2 @@
-const hello = (t) => "Hello " + t;
-console.log(hello("World"));
+const hello = () => "Hello World";
 exports.hello = hello;
