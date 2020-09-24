@@ -1,5 +1,5 @@
 const hello = require("./hello");
 
-it("My hello", () => {
+describe("My hello", () => {
   expect(hello.hello()).toEqual("Hello World");
 });
